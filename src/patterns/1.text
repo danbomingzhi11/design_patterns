@@ -1,0 +1,19 @@
+开放封闭原则：软件实体（类、模块、函数等）应该对扩展开放，对修改封闭。即通过扩展来实现新功能，
+而不是通过修改已有代码。
+
+单一职责原则（SRP：Single responsibility principle）又称为单一功能原则： 它规定一个类应该只负责一项职责。
+
+接口隔离原则（Interface Segregation Principle，ISP）：客户端不应该依赖于它不需要的接口。应该将大的接口拆分成更小、更具体的接口，
+以避免客户端依赖不需要的方法。
+
+里氏替换原则（Liskov Substitution Principle，LSP）：子类必须能够替换其父类，并且不会破坏程序的正确性。换句话说，
+子类应该能够完全替代父类的行为。
+
+依赖倒置原则（Dependency Inversion Principle，DIP）：高层模块不应该依赖于低层模块，它们都应该依赖于抽象。抽象不应该依赖于具体实现细节，
+而具体实现细节应该依赖于抽象。
+
+迪米特法则（Law of Demeter，LoD）：一个对象应该对其他对象有尽可能少的了解。一个类应该只与其直接的朋友（成员变量、方法的参数、方法的返回值等）
+进行交互，而不应该直接与陌生的类进行交互。
+
+合成复用原则（Composition/Aggregation Reuse Principle，CARP）：优先使用对象组合（Composition）或聚合（Aggregation），
+而不是继承来实现代码复用。通过组合关系可以更灵活地扩展功能，避免了类之间的紧耦合关系。
