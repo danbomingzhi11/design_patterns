@@ -1,13 +1,23 @@
 package patterns;
 
+import java.util.*;
+
 public class Main {
+    // 入口函数
     public static void main(String[] args) {
-        Cat cat = new Cat();
-//        Cat cat1 = new Cat1();
-//        cat1.eat();
-//        AbstractAnimal animal = new Dog();
-        AnimalFactor animalFactor = new AnimalFactor();
-        AbstractAnimal animal1 = animalFactor.animalFactor(cat);
-        animal1.eat();
+        // 1.text
+        // 2.
+        Main.run(new Cat1());
+
     }
+
+    private static void run(Animal animal) {
+        animal.eat();
+    }
+//    private static void runCat(Cat cat) {
+//        cat.eat();
+//    }
+//    private static void runDog(Dog dog) {
+//        dog.eat();
+//    }
 }
