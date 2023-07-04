@@ -1,6 +1,4 @@
-package patterns;
-
-import java.util.*;
+package creational.patterns;
 
 public class Main {
     // 入口函数

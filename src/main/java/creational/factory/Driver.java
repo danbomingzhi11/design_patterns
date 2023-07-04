@@ -1,4 +1,4 @@
-package factory;
+package creational.factory;
 
 public class Driver {
     public static Connection getConnection(String type, InfoProperties info) {

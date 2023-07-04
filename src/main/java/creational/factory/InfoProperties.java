@@ -1,4 +1,4 @@
-package factory;
+package creational.factory;
 
 // 连接包装类
 public class InfoProperties {

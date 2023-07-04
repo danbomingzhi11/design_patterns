@@ -1,4 +1,4 @@
-package factory;
+package creational.factory;
 
 // Oracle 连接类
 public class OracleConnectionImpl implements Connection {

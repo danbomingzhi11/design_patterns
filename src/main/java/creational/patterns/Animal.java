@@ -1,4 +1,4 @@
-package patterns;
+package creational.patterns;
 
 // 动物接口
 public interface Animal {

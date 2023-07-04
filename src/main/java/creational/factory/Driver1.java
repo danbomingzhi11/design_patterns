@@ -1,4 +1,4 @@
-package factory;
+package creational.factory;
 
 // 工厂接口
 public interface Driver1 {

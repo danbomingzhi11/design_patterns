@@ -1,4 +1,4 @@
-package factory;
+package creational.factory;
 
 // Mysql JDBC 连接类
 public class MysqlConnectionImpl implements Connection{

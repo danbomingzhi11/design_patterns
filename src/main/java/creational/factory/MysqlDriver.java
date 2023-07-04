@@ -1,4 +1,4 @@
-package factory;
+package creational.factory;
 
 // Mysql 工厂
 public class MysqlDriver implements Driver1{

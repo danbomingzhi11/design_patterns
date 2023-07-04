@@ -1,7 +1,4 @@
-package patterns;
-
-import java.util.AbstractList;
-import java.util.List;
+package creational.patterns;
 
 public class Cat1 extends Cat{
     public void eat1() {

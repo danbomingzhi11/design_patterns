@@ -1,4 +1,4 @@
-package factory;
+package creational.factory;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -29,7 +29,7 @@ public class Main {
 //        }
 //
 //        // 出现一个问题 简单工厂方法不易于扩展 可以使用反射 + 配置文件 (Spring 基本原理）
-//        Connection connection = Driver.getConnection("src.main.java.factory.MysqlConnectionImpl", infoProperties);
+//        Connection connection = Driver.getConnection("src.main.java.creational.factory.MysqlConnectionImpl", infoProperties);
 
         // 但是创建这些类的过程不应该被暴露出来，应该让各个厂商各自在各自的Jar包中去创建自家的Connection对象
 

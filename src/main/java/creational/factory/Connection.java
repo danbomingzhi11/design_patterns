@@ -1,4 +1,4 @@
-package factory;
+package creational.factory;
 
 // 连接类
 public interface Connection {

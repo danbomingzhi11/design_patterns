@@ -1,4 +1,4 @@
-package patterns;
+package creational.patterns;
 
 public class Cat implements Animal{
     @Override

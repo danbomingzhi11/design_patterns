@@ -1,4 +1,4 @@
-package factory;
+package creational.factory;
 
 // Connection 类 简单工厂方法
 public class ConnectionSimpleFactory {
