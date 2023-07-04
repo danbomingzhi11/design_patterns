@@ -17,6 +17,13 @@ public class InfoProperties {
         this.passWard = passWard;
     }
 
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
 
     public String getUser() {
         return user;

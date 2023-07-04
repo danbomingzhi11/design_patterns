@@ -4,9 +4,9 @@ package factory;
 public class ConnectionSimpleFactory {
     public static Connection getConnection (String type, InfoProperties info) {
         if ("Mysql".equals(type)) {
-            return new MysqlConnection(info);
+            return new MysqlConnectionImpl();
         } else if ("Oracle".equals(type)) {
-            return new OracleConnection(info);
+            return new OracleConnectionImpl();
         }
         throw new RuntimeException("sorry, this type is not support ");
     }
