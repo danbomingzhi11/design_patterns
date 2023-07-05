@@ -1,5 +1,6 @@
 package creational.prototype;
 
+//原型模式（Prototype Pattern）是用于创建重复的对象，同时又能保证性能。
 public class Main {
     public static void main(String[] args) {
         Email mail = new Email();
