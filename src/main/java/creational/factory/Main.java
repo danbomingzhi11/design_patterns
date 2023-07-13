@@ -13,7 +13,7 @@ public class Main {
 //                "jdbc:mysql://localhost:3306/test",
 //                "admin",
 //                "admin");
-//        // 模拟 mysql JDBC 连接
+//        // 模拟 mysql JDBC 连接2
 //        MysqlConnectionImpl mysqlConnection = new MysqlConnectionImpl();
 //        //建立连接
 //        mysqlConnection.connect(infoProperties);
@@ -34,7 +34,7 @@ public class Main {
         // 但是创建这些类的过程不应该被暴露出来，应该让各个厂商各自在各自的Jar包中去创建自家的Connection对象
 
         // 使用DriverManager类 来统一管理连接
-        InfoProperties infoProperties = new InfoProperties(
+        creational.factory.InfoProperties infoProperties = new creational.factory.InfoProperties(
                 "jdbc:mysql://81.70.181.205:3307/foodie",
                 "root",
                 "root");
