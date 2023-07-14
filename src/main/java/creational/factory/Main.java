@@ -45,7 +45,7 @@ public class Main {
     }
 
     // 测试JDBC
-    private static void testJdbc(String type, InfoProperties info) {
+    private static void testJdbc(String type, creational.factory.InfoProperties info) {
         try {
             // 获取到Driver类 并 注册到DriverManager 容器中
             Class.forName(type);
@@ -77,7 +77,7 @@ public class Main {
     // 与配置文件相结合的JDBC
     private static void jdbcByProperties() throws IOException, ClassNotFoundException, SQLException {
         //1.加载配置文件
-        InputStream in = InfoProperties.class.getClassLoader().getResourceAsStream("jdbc.properties");
+        InputStream in = creational.factory.InfoProperties.class.getClassLoader().getResourceAsStream("jdbc.properties");
         Properties pros = new Properties();
         pros.load(in);
 
