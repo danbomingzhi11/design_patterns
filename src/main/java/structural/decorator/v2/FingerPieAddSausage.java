@@ -1,17 +1,17 @@
-package structural.decorator.v2;
+package main.java.structural.decorator.v2;
 
-public class FingerPieAddSausage extends FingerPieDecorator{
+public class FingerPieAddSausage extends FingerPieDecorator {
     public FingerPieAddSausage(FingerPie fingerPie) {
         super(fingerPie);
     }
 
     @Override
-    String make() {
+    public String make() {
         return super.make() + "加肠";
     }
 
     @Override
-    Double price() {
+    public Double price() {
         return super.price() + 1.0;
     }
 }

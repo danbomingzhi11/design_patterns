@@ -1,4 +1,4 @@
-package structural.decorator.v2;
+package main.java.structural.decorator.v2;
 
 // 妙啊
 public class Main {

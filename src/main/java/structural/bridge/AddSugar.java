@@ -1,4 +1,4 @@
-package structural.bridge;
+package main.java.structural.bridge;
 
 // 加糖
 public class AddSugar implements Additive{

@@ -1,13 +1,13 @@
-package structural.decorator.v2;
+package main.java.structural.decorator.v2;
 
 public class FingerPieBody extends FingerPie{
     @Override
-    String make() {
+    public String make() {
         return "手抓饼";
     }
 
     @Override
-    Double price() {
+    public Double price() {
         return 5.0;
     }
 }

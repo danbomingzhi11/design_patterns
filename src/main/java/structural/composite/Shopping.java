@@ -1,10 +1,10 @@
-package structural.composite;
+package main.java.structural.composite;
 
 import java.util.ArrayList;
 import java.util.List;
 
 // 购物类
-public class Shopping implements ShoppingCart{
+public class Shopping implements ShoppingCart {
     // 等级
     private Integer level;
 

@@ -1,7 +1,7 @@
-package structural.decorator.v2;
+package main.java.structural.decorator.v2;
 
 public abstract class FingerPie {
-    abstract String make();
+    public abstract String make();
 
-    abstract Double price();
+    public abstract Double price();
  }

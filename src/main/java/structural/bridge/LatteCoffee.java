@@ -1,4 +1,4 @@
-package structural.bridge;
+package main.java.structural.bridge;
 
 // 拿铁咖啡
 public class LatteCoffee extends CoffeeType{

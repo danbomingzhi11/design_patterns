@@ -1,4 +1,4 @@
-package structural.bridge;
+package main.java.structural.bridge;
 
 // 大杯咖啡
 public class LargerCoffee extends Coffee{

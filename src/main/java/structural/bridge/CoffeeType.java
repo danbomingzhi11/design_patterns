@@ -1,4 +1,4 @@
-package structural.bridge;
+package main.java.structural.bridge;
 
 // 咖啡种类
 public abstract class CoffeeType {

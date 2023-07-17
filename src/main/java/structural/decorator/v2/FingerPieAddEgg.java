@@ -1,4 +1,4 @@
-package structural.decorator.v2;
+package main.java.structural.decorator.v2;
 
 public class FingerPieAddEgg extends FingerPieDecorator {
     public FingerPieAddEgg(FingerPie fingerPie) {
@@ -6,12 +6,12 @@ public class FingerPieAddEgg extends FingerPieDecorator {
     }
 
     @Override
-    String make() {
+    public String make() {
         return super.make() + "加蛋";
     }
 
     @Override
-    Double price() {
+    public Double price() {
         return super.price() + 1.0;
     }
 }
