@@ -1,4 +1,4 @@
-package main.java.structural.composite;
+package structural.composite;
 
 // 购物车接口
 public interface ShoppingCart {

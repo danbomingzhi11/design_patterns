@@ -1,4 +1,4 @@
-package main.java.structural.composite;
+package structural.composite;
 
 // 商品类
 public class commodity implements ShoppingCart {
