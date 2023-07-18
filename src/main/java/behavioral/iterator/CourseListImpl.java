@@ -3,7 +3,7 @@ package behavioral.iterator;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CourseListImpl extends CourseList{
+public class CourseListImpl implements CourseList {
     private static List courseList = new ArrayList<>();
 
     @Override
