@@ -17,6 +17,7 @@ public class PromotionStrategyFactory {
         String LIJIAN = "LIJIAN";
         String FANXIAN = "FANXIAN";
         String MANJIAN = "MANJIAN";
+
     }
 
     public static PromotionStrategy getPromotionStrategy(String promotionKey) {
