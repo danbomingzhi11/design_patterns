@@ -14,7 +14,7 @@ public class ChessFactory {
                     chess = (color == "黑色" ? new BlackChess()
                             : new WhiteChess()));
         }
-        
+
         return chess;
     }
 }
