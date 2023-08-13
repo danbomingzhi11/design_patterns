@@ -16,6 +16,8 @@ public class Main {
         backChess2.draw(2.0, 6.0);
 
 
+        
+
         System.out.println(String.format("backChess1:%d | backChess2:%d | whiteChess:%d",
                 backChess1.hashCode(), backChess2.hashCode(), whiteChess.hashCode()));
     }
