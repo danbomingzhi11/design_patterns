@@ -16,5 +16,6 @@ public class Main {
 
         System.out.println(String.format("backChess1:%d | backChess2:%d | whiteChess:%d",
                 backChess1.hashCode(), backChess2.hashCode(), whiteChess.hashCode()));
+
     }
 }
