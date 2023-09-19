@@ -11,7 +11,6 @@ public class Main {
         //下黑子
         structural.flyweight.Chess backChess2 = structural.flyweight.ChessFactory.getChess(Color.BLACK.color);
         backChess2.draw(2.0, 6.0);
-
         System.out.println(String.format("backChess1:%d | backChess2:%d | whiteChess:%d",
                 backChess1.hashCode(), backChess2.hashCode(), whiteChess.hashCode()));
     }
