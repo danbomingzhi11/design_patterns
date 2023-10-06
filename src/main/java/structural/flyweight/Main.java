@@ -8,7 +8,6 @@ public class Main {
         //下白子
         structural.flyweight.Chess whiteChess = structural.flyweight.ChessFactory.getChess(Color.WHITE.color);
         whiteChess.draw(3.0, 5.0);
-
         //下黑子
         structural.flyweight.Chess backChess2 = structural.flyweight.ChessFactory.getChess(Color.BLACK.color);
         backChess2.draw(2.0, 6.0);
