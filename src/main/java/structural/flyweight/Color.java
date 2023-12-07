@@ -6,6 +6,7 @@ public enum Color {
     BLACK("黑色");
 
     public final String color;
+
     
     Color(String color) {
         this.color = color;
