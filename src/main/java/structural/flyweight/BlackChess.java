@@ -4,8 +4,7 @@ package structural.flyweight;
 public class BlackChess extends Chess {
 
     private final String color = Color.BLACK.color;
-
-
+    
     // 落子
     @Override
     void draw(Double x, Double y) {
