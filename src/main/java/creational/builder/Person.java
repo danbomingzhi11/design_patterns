@@ -28,6 +28,7 @@ public class Person {
         private String name;
         // 性别(必填)
         private int sex;
+        
         // 年龄(必填)
         private Integer age;
         // 兴趣(非必填)
